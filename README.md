@@ -1,3 +1,3 @@
-# Module5_GEOS270
+# FinalProjects_GEOS270
 
-https://june-skeeter.github.io/Module5_GEOS270/
+https://june-skeeter.github.io/FinalProjects_GEOS270/
