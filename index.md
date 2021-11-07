@@ -4,6 +4,12 @@ title: Final Projects
 nav_order: 1
 ---
 
+# Final Projects
+{: .no_toc }
+
+1. TOC
+{:toc}
+
 # Learning Objectives   
 
 By the end of this project you will be able to:  
@@ -18,7 +24,7 @@ By the end of this project you will be able to:
 
 # Deliverables    
 
-The Project is due on the last day of term, **Tuesday December 7th at Midnight**.  There is also a Final Project Proposal that is due **Monday November 22nd** The proposal will count as the towards your Module 6 grade.  Deliverables for this project will consist of the following:  
+The Project is due on the last day of term, **Tuesday December 7th at Midnight**.  There is also a Final Project Proposal that is due **Monday November 22nd at 2PM** The proposal will count as the towards your Module 6 grade.  Deliverables for this project will consist of the following:  
 
 * Project Proposal (Module 6 Lab Assignment)
 	* The topic and a brief problem statement.
@@ -42,30 +48,7 @@ I encourage you to work in groups, however I also recognize group work can be ve
 
 # Project Proposal
 
-Fill out the project proposal form.  The form includes space for: 
-
-* A brief description of the topic
-* The data sets that you will use
-    * Confirmation that you are able to download them before submitting
-* Preliminary analysis plans
-* Whether you intend to submit a written report or a presentation.
-
-Submit your proposal by **Monday November 22nd**.  Some things to think about when formulating your project proposal:  
-
-* Is the project ambitious enough? Or is it overly ambitious? Would be difficult to complete in the time remaining in the semester?
-	* Your project should be more than a repeat of one of the labs and should incorporate additional analysis.
-* Make sure you have a clear understanding of how you are going to go from your data to your final deliverables.
-* Ensure that your data is available and easy to obtain in a usable format.
-
-After you submit your proposal, it will be reviewed and general feedback will be given.  Proposals turned in on time, will be promptly marked and returned the same day.  The proposal will be marked on a scale of 0-4.  Minor comments/suggestions will be provided where applicable.  If your group receives a 1 or a 2, you should make time to meet with me either on zoom or in person.
-
-|Score|Comments            |
-|-----|--------------------|
-| 0   |Missing             |
-| 1   |Insufficient        |
-| 2   |Below Expectations  |
-| 3   |Met Expectations    |
-| 4   |Exceeds Expectations|
+The proposal is intended to get you thinking about the project sooner rather than later, so you aren't stuck scrambling at the last minute.  See the [Project Proposal](docs/Proposal.md) page for details.  The proposal is due **Monday November 22nd at 2pm**
 
 # Project Workflow
 
