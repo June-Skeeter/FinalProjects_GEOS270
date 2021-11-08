@@ -67,9 +67,15 @@ Export.image.toDrive({
 
 # Sources We Haven't Worked With
 
+## Municipal Data Sources
+
 The [City of Vancouver Data Portal](https://opendata.vancouver.ca/pages/home/) has a lots of data for the city: parks, zoning, bike lanes, transit etc.  Only for the **City** Vancouver.  [Surrey](https://www.surrey.ca/services-payments/online-services/open-data), [Richmond](https://www.richmond.ca/discover/maps.htm), [Burnaby](https://www.burnaby.ca/services-and-payments/maps-and-open-data), etc. have their own.  [Metro-Vancouver](http://www.metrovancouver.org/data#k=), which is inclusive of all thse cities has more data.  Most large municipalities have some sort of data portal.
 * eg.  Google: "Toronto open data" and see what comes up.
 
+## BC Raster Data
+
 [Hectares BC](https://www.hectaresbc.org/app/habc/HaBC.html?type=raster&query=climatenormal.map) has a large stockpile of raster dataset for the province.  Sometimes students have trouble with downloads from this site.  If your download won't process, feel free to reach out.  *Just don't wait till the last minute.*
 
-[Police Involved Deaths in Canada](https://police-involved-deaths-ca.github.io/Data/) is a database I've been working on compiling.  
+## Police Involved Deaths Data
+
+[Police Involved Deaths in Canada](https://police-involved-deaths-ca.github.io/Data/) is a database I've been working on compiling.  It is an incomplete account, but the most comprehensive record available.  If you want to work with this data, please reach out to discuss some options and get more information.
