@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Ideas
-nav_order: 2
+nav_order: 3
 ---
 
 # Project Ideas
@@ -13,54 +13,15 @@ The ideas listed below are meant as a starting point, you should flush them out 
 1. TOC
 {:toc}
 
-Project Ideas 
- 
-
-# Helpful Data Sources
-
-[Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044)
-
-[Data BC](https://data.gov.bc.ca/)
-* Some downloads from this site require you to filter by [Map sheets](https://open.canada.ca/data/en/dataset/055919c2-101e-4329-bfd7-1d0c333c0e62)
-
-[City of Vancouver Data Portal](https://opendata.vancouver.ca/pages/home/)
-
-[Hectares BC](https://www.hectaresbc.org/app/habc/HaBC.html?type=raster&query=climatenormal.map)
-* Sometimes students have trouble with downloads from this site.  If your download won't process, feel free to reach out.
-
-[Google Earth Engine](https://developers.google.com/earth-engine/datasets/)
-* There are lots of datasets on here we haven't covered, so take a bit of time to explore
-* If you'd like a dataset from here, please email me.  I'm happy to help facilitate downloading it.
-	* Do not wait until the last minute to contact me asking for help with a download.
-* This code can be used to download a DEM from google earth, similar to what we did in Module 3.  But make sure to upload an appropriate boundary file first.  You can reference Module 3
-
-```javascript
-var dataset = ee.ImageCollection('NRCan/CDEM').mean();//lterBounds(Boundary);
-var elevation = dataset.select('elevation');
-var elevationVis = {
-  min: -50.0,
-  max: 1500.0,
-  palette: ['0905ff', 'ffefc4', 'ffffff'],
-};
-
-
-Map.centerObject(Boundary)
-Map.addLayer(Boundary)
-Map.addLayer(elevation, elevationVis, 'Elevation');
-
-// Export to Google drive
-Export.image.toDrive({
-  image: elevation,
-  description: 'DEM',
-  scale: 25,
-  region: Boundary
-});
-````
-
-
 
 
 # Possible Projects
+
+
+## More in Depth Census Analysis
+
+You can use the concept explored in Module 3 (Access to Green Space/Nature vs. Wealth/Affluence) and/or Module 4 (Location vs. Affordability) as a starting point for a deeper analysis.  Incorporate different variables, look at different scales/resolutions/locations.  Don't repeat the assignments, come up with ways **improve** upon the methods and do a deeper analysis.
+
 
 ## Access to green space and bicycle infrastructure in Vancouver 
  
@@ -69,12 +30,10 @@ Export.image.toDrive({
  
 Possible Analysis to consider
 * Geocoding
-* Tabular joins 
 * Select by location/attribute
 * Buffering to gauge accessibility 
 * Intersections to count # bike racks, area of parks, length of bike lanes within census units 
-* Data Classification  
- 
+
 
 ## Mapping Police Violence
  
@@ -83,12 +42,11 @@ Use this dataset of [Police Involved Deaths in Canada](https://police-involved-d
 Possible Analysis to consider 
 * Geocoding
 * Point in Polygon Analysis
-* Data Normalization
-* Data classification
+* Data Normalization & Classification
 
 ## Possible Locations for a Ski Resort
 
-Define a boundary region and download a DEM & other necessary data.  You can use google earth engine to download a DEM as shown above.  Some files from DataBc that might be helpful include [Old Growth Forests](https://catalogue.data.gov.bc.ca/dataset/old-growth-management-areas-legal-current#edc-pow) &  [Streams](https://catalogue.data.gov.bc.ca/dataset/freshwater-atlas-stream-network)
+Define a boundary region and download a DEM & other necessary data.  You can use google earth engine to download a DEM and get some other files from DataBc that might be important to consider (eg. Old Growth Forests)
 
 Possible Analysis to consider   
 * Slope, Aspect, & Reclassify
@@ -98,8 +56,7 @@ Possible Analysis to consider
 
 ## Landslides in Burn Zones 
 
-Forest fires are also some of the worst natural disasters impacting the province.  Climate change and human activity are changing fire dynamics and leading to costlier fire seasons.  After severe fires, intense precipitation events can trigger landslides.  The burn severity data is available for 2015-2019 for BC.  Select a [Fire Center](https://catalogue.data.gov.bc.ca/dataset/bc-wildfire-fire-centres) (I suggest not doing Coastal Fire Centre).   Find an area that has been impacted by significant fire activity. Use DEM data (google earth) to calculate slope and combine with burn severity and precipitation (hectares bc) to create landslide risk classification.  
-
+Forest fires are also some of the worst natural disasters impacting the province.  Climate change and human activity are changing fire dynamics and leading to costlier fire seasons.  After severe fires, intense precipitation events can trigger landslides.  The burn severity data is available for 2015-2019 for BC.  Select a Fire Center (I suggest not doing Coastal Fire Centre).   Use DEM data (google earth) to calculate slope and combine with burn severity and precipitation (HectaresBC) to create landslide risk classification.  Your selected Fire Center can serve as your boundary file for the DEM download.
 
 Possible Analysis to consider   
 * Slope & Reclassify
@@ -110,7 +67,7 @@ Possible Analysis to consider
 ## Air Quality in BC 
 
 Poor air quality is a significant health risk for vulnerable populations.  Over recent years there have been serious smoke events impacting air quality province wide.  Additionally, traffic and industrial activities exacerbate air quality issues in urban areas.   
-Download census data for the Lower Mainland.  Download and analyze the [air quality data](https://github.com/June-Skeeter/BCAirQuality) (PM 2.5 is the most important for health, but you should also look at one or two other pollutants of interest).  Look at how air quality changes across the region, either monthly or annually.  Are there significant at risk populations (youth and seniors) who might be negatively impacted by air quality?  You will also need the air [quality stations](https://catalogue.data.gov.bc.ca/dataset/air-quality-monitoringunverified-hourly-air-quality-and-meteorologicaldata/resource/7fd21841-b133-4f39-b9b2-6bfa34a7cf6c) for this analysis.
+Download census data for the Lower Mainland.  Download and analyze the air quality data.  Look at how air quality changes across the region annually or investigate some specific fire season(s).  Consider incorporating census data to see if there arae significant at risk populations (eg. youth and seniors) in places with air quality?  Note - Look at the data coverage before you decide which scale to analyze census data at.
  
 Possible Analysis to consider  
 * Import tabular (x,y) data 
@@ -118,4 +75,4 @@ Possible Analysis to consider
 * Inverse Distance Weighting
 * Zonal statistics 
 * Tabular joins
-
+  

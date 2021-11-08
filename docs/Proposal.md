@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Project Proposal
-nav_order: 3
+nav_order: 5
 ---
 
 
-Your Final Project Proposal should include the following information: 
+Your can find the proposal form here in [.pdf](/content/Final-Project-From.pdf) or [.docx](/content/Final-Project-From.docx).  Fill it out and submit it by **Monday November 22nd at 2pm** and you will receive prmompt feedback.
 
 # Group Number
 
-# Group Members and Lab Sections
+# Group Member Names and Lab Sections
 
 # Project Title and Description 
 
@@ -36,7 +36,7 @@ Fill out the project proposal form.  The form includes space for:
 * Preliminary analysis plans
 * Whether you intend to submit a written report or a presentation.
 
-Submit your proposal by **Monday November 22nd at 2pm**.  Some things to think about when formulating your project proposal:  
+Submit your proposal by .  Some things to think about when formulating your project proposal:  
 
 * Is the project ambitious enough? Or is it overly ambitious? Would be difficult to complete in the time remaining in the semester?
 	* Your project should be more than a repeat of one of the labs and should incorporate additional analysis.
@@ -44,6 +44,7 @@ Submit your proposal by **Monday November 22nd at 2pm**.  Some things to think a
 * Ensure that your data is available and easy to obtain in a usable format.
 
 After you submit your proposal, it will be reviewed and general feedback will be given.  Proposals turned in on time, will be promptly marked and returned the same day.  The proposal will be marked on a scale of 0-4.  Minor comments/suggestions will be provided where applicable.  If your group receives a 1 or a 2, you should make time to meet with me either on zoom or in person.
+
 
 |Score|Comments            |
 |-----|--------------------|
@@ -53,3 +54,10 @@ After you submit your proposal, it will be reviewed and general feedback will be
 | 3   |Met Expectations    |
 | 4   |Exceeds Expectations| 
 
+|Score|Comments            |
+|-----|--------------------|
+| 0   |Missing             |
+| 1   |Insufficient        |
+| 2   |Below Expectations  |
+| 3   |Met Expectations    |
+| 4   |Exceeds Expectations| 
