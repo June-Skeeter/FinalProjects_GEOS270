@@ -92,13 +92,19 @@ You will need to make a series of maps (# depends on the analysis) to visualize 
 **3**{: .label .label-red } Each group must report on their project, but you have a choice of how.  Groups may either submit a written report or give a project presentation in lieu of a written report.  The report/presentation should contain and reference the flowchart, maps, charts, and/or tables.  The report/presentation should have the following sections:
 
 **Introduction** – What is the problem? Why should we care?  Briefly introduce the scope of the issue you are addressing and conclude your introduction with your research statement.
+
 * **Research Statement** – What is/are the specific question(s) you are looking to address?
-**Data Sources** – What data are you using & where did they come from? What type of data are you working with (raster, vector, tabular)?  What’s the scale, is it a limiting factor?  Are there any issues or special considerations with this data set?  A table might be a useful way to help summarize this section concisely.
+
+**Data Sources** – What data are you using & where did they come from? What type of data are you working with (raster, vector, tabular)?  What’s the scale & resolution, is these limiting factors?  Are there any issues or special considerations with this data set?  A table might be a useful way to help summarize this section concisely.
+
 **Methods** – What did you do? Why did you do it?  Explain the analysis steps you took and justify the choices you made in your analysis.  You can rely heavily on your flow charts for explaining the methods.  You don’t need to detail every little step, be brief but throughout.
 * Don’t Say things like: “We doubled clicked the buffer tool and set Layer A as the input. We set the buffer distance to 1000 meters and clicked dissolve all.  We set the output name as Layer B and hit run.  Then we merged Layer B with Layer C naming it Layer D”
 * Instead Say: “We buffered Layer A by 1000 m because (justification). Then we merged it with Layer C”
+
 **Results** – What does your analysis say? Describe the general patterns and trends that your analysis yielded.
+
 **Conclusions** – What are the overarching conclusions? Did you find what you expected?  Did you answer the research statement?  What are some potential future analysis that could result from this?
+
 **Bibliography** – Cite any data sources used.  Also cite any relevant literature.  It is not expected that you conduct a literature review, just make sure to cite any you do use. Reference them in a consistent format
 
 For written report, there is no word/page count.  You can keep the report brief, just be thorough.  Make sure you explain and discuss the key points.
