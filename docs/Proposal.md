@@ -21,7 +21,7 @@ Some things to think about when formulating your project proposal:
 * Make sure you have a clear understanding of how you are going to go from your data to your final deliverables.
 * Ensure that your data is available and easy to obtain in a usable format.
 
-After you submit your proposal, it will be reviewed and general feedback will be given.  Proposals turned in on time, will be promptly marked and returned the same day.  The proposal will be marked on a scale of 0-4.  Minor comments/suggestions will be provided where applicable.  If your group receives a 1 or a 2, you should consider make time to meet with me either in person during office hours or on zoom for further feeback.
+After you submit your proposal, it will be reviewed and general feedback will be given.  Proposals turned in on time, will be promptly marked and returned the same day.  The proposal will be marked on a scale of 0-4 (final pts weight for Module 6 tbd).  Minor comments/suggestions will be provided where applicable.  If your group receives a 1 or a 2, you should consider make time to meet with me either in person during office hours or on zoom for further feeback.
 
 
 |Score|Comments            |
