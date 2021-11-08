@@ -6,7 +6,7 @@ nav_order: 5
 
 # Project Proposal
 
-Your can find the proposal form here in [.pdf](/content/Final-Project-From.pdf) or [.docx](/content/Final-Project-From.docx).  Fill it out and submit it by **Monday November 22nd at 2pm** and you will receive prmompt feedback.  Your proposal is a **Tentative** plan, you can change it after need/want.The form includes space for: 
+Your can find the proposal form here in [.pdf](content/Final-Project-From.pdf) or [.docx](content/Final-Project-From.docx).  Fill it out and submit it by **Monday November 22nd at 2pm** and you will receive prmompt feedback.  Your proposal is a **Tentative** plan, you can change it after need/want.The form includes space for: 
 
 * A brief description of the topic
 * The data sets that you will use
