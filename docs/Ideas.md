@@ -26,7 +26,7 @@ You can use the concept explored in Module 3 (Access to Green Space/Nature vs. W
 ## Access to green space and bicycle infrastructure in Vancouver 
  
 **Scenario**: Access to green space and bicycle infrastructure is important for quality of life in urban areas, promoting physical and mental health.  Yet, green space and bike infrastructure are often inequitably distributed around cities. Explore the distribution of green space and bicycle infrastructure in Vancouver in relation to wealth, housing density, transit, etc.  Check out the 
-[City of Vancouver Data Portal](https://opendata.vancouver.ca/pages/home/) for data on parks, bicycle lanes, bike racks, trees, etc. that might be useful.  It could also be helpful to incorporate some census data.	
+City of Vancouver Data Portal for data on parks, bicycle lanes, bike racks, trees, etc. that might be useful.  It could also be helpful to incorporate some census data.	
  
 Possible Analysis to consider
 * Geocoding
@@ -37,7 +37,7 @@ Possible Analysis to consider
 
 ## Mapping Police Violence
  
-Use this dataset of [Police Involved Deaths in Canada](https://police-involved-deaths-ca.github.io/Data/) to map incidents of police violence in a specific region of your choice.  You can choose a province (eg. Saskatchewan), or a specific city (eg. Toronto).  Use census data to complement the analysis.  If you choose this project, you can reach out directly to me for more information on the data.
+Use police  dataset to map incidents of police violence in a specific region of your choice.  You can choose a province (eg. Saskatchewan), or a specific city (eg. Toronto).  Use census data to complement the analysis.  If you choose this project, you can reach out directly to me for more information on the data.
 
 Possible Analysis to consider 
 * Geocoding

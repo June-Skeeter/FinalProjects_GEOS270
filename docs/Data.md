@@ -71,3 +71,5 @@ The [City of Vancouver Data Portal](https://opendata.vancouver.ca/pages/home/) h
 * eg.  Google: "Toronto open data" and see what comes up.
 
 [Hectares BC](https://www.hectaresbc.org/app/habc/HaBC.html?type=raster&query=climatenormal.map) has a large stockpile of raster dataset for the province.  Sometimes students have trouble with downloads from this site.  If your download won't process, feel free to reach out.  *Just don't wait till the last minute.*
+
+[Police Involved Deaths in Canada](https://police-involved-deaths-ca.github.io/Data/) is a database I've been working on compiling.  
