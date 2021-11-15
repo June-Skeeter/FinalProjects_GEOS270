@@ -86,6 +86,11 @@ It may be beneficial to do your project in Model Builder
 
 As you go through your GIS Analysis steps, document what you are doing and the specific operations you are performing. You will produce a flow chart of your analysis and include it in the report.  If you use model builder for your analysis, this can serve as the basis for your flowchart, but you should translate it into an easier to follow an mode aesthetically pleasing format.
 
+There are a number of ways to create flowcharts.  You can draw them by hand, you can use power point, or you can try [Diagrams.net](https://app.diagrams.net/).  This site allows you to make aesthetically pleasing flowcharts quickly and easily, the video bellow gives you a quick overview of how to use the too.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jq5NxMpOSKI?start=135" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
  
 ## Data Visualization  
 
