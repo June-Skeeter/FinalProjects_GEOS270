@@ -11,12 +11,12 @@ nav_order: 1
 {:toc}
 
 
-# Overview Video
+<!-- # Overview Video
 
 This video gives a discussion of the contents of this page.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2F0TIWzSm18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+ -->
 
 
 # Learning Objectives   
@@ -33,17 +33,17 @@ By the end of this project you will be able to:
 
 # Deliverables    
 
-The Project is due on the last day of term, **Tuesday December 7th at Midnight**.  There is also a Final Project Proposal that is due **Monday November 22nd at 2PM** The proposal will count as the towards your Module 6 grade.  Deliverables for this project will consist of the following:  
+The Project is due on the last day of term, **Tuesday April 12th by 5PM**.  There is also a Final Project Proposal that is due **Tuesday March 29th by 5PM**.  The proposal will count as a 10% of your total Final Project grade.  Deliverables for this project will consist of the following:  
 
-* Project Proposal (Module 6 Lab Assignment)
+* Project Proposal
 	* The topic and a brief problem statement.
 	* Proposed data sources
 	* Tentative steps to analyze the problem.
 
-* Project Submission (20% of Final Grade)
+* Project Submission
+    * A written report
     * Maps/charts visualizing your results
     * A flowchart visualizing your methodology
-    * A written report **or** 10 minute presentation
 
 # Project Ideas
 
@@ -51,13 +51,13 @@ See the Project Ideas page for a list of potential projects.  You can use any of
 
 # Groups 
 
-This is intended to be a group project.  I suggest you work in a groups of 3.  Groups larger than 4 are not allowed.  If you are looking to join a group, try making a post to the **Final Project Group Search** discussion page on canvas, list any topics you might be interested in working on.  If you are still having trouble finding a group try reaching out to your TA for assistance.
+This is intended to be a group project.  I suggest you work in a groups of 3.  Groups larger than 4 are **not allowed**.  If you are looking to join a group, try making a post to the **Final Project Group Search** discussion page on canvas, list any topics you might be interested in working on.  If you are still having trouble finding a group try reaching out to your TA for assistance.
 
-I encourage you to work in groups, however I also recognize group work can be very difficult for some, especially those taking the course online.  You may work alone if desired **but** you must contact and provide a reasoning.  Choosing to work alone **will not** lower the expectations for your project.  Your project will be evaluated using the same standards as group projects.
+I encourage you to work in groups, however I also recognize group work can be very difficult for some, especially those taking the course online.  You may work alone if desired **but** you must request approval first.  Choosing to work alone **will not** lower the expectations for your project.  Your project will be evaluated using the same standards as group projects.
 
 # Project Proposal
 
-The proposal is intended to get you thinking about the project sooner rather than later, so you aren't stuck scrambling at the last minute.  See the [Project Proposal](docs/Proposal.md) page for details.  The proposal is due **Monday November 22nd at 2pm**
+The proposal is intended to get you thinking about the project sooner rather than later, so you aren't stuck scrambling at the last minute.  See the [Project Proposal](docs/Proposal.md) page for details.  The proposal is due **Tuesday March 29th by 5PM**
 
 # Project Workflow
 
@@ -79,12 +79,12 @@ The project should have a higher level of complexity than any of the four labs y
 * Raster overlay & reclassification
 * Working with DEMs (elevation, slope, aspect)
 
-It may be beneficial to do your project in Model Builder
+It might be beneficial to do your project in Model Builder.  You are not required to do so, but it could be helpful for storing your workflow, which will make it easier to remember/describe your methods.
 
  
 ## Flow Charts    
 
-As you go through your GIS Analysis steps, document what you are doing and the specific operations you are performing. You will produce a flow chart of your analysis and include it in the report.  If you use model builder for your analysis, this can serve as the basis for your flowchart, but you should translate it into an easier to follow an mode aesthetically pleasing format.
+As you go through your GIS Analysis steps, document what you are doing and the specific operations you are performing (or use model builder!). You will produce a flow chart of your analysis and include it in the report.  If you use model builder for your analysis, this can serve as the basis for your flowchart, but you should translate it into an easier to follow an more aesthetically pleasing format for the final submission.
 
 There are a number of ways to create flowcharts.  You can draw them by hand, you can use power point, or you can try [Diagrams.net](https://app.diagrams.net/).  This site allows you to make aesthetically pleasing flowcharts quickly and easily, the video bellow gives you a quick overview of how to use the too.
 
@@ -94,16 +94,15 @@ There are a number of ways to create flowcharts.  You can draw them by hand, you
  
 ## Data Visualization  
 
-You will need to make a series of maps (# depends on the analysis) to visualize your methods and final results.  These maps must follow the conventions of data classification and data display as learned in the course, and include all necessary map elements (legend, title, scale, north arrow, sources, neatline, insets/reference maps where necessary etc.) and take into consideration cartographic design (lecture in class on design). In addition to maps, you may feel that other examples of data visualization are effective, such as charts, histograms and if so, include these. 
+You will need to make a series of maps/charts (number and type(s) depends on the specific analysis) to visualize your methods and final results.  These visualizations must follow the conventions of data classification and data display as learned in the course, and include all relevant map elements (legend, title, scale, north arrow, sources, insets/reference maps where necessary etc.) and take into consideration cartographic design principals (lecture in class on design)
 
  
 ## Deliverables
 
-**1**{: .label .label-red } Each group must turn in maps, charts, and or tables that visualize the final results of your analysis.  These will be evaluated for aesthetic quality and effectiveness at conveying your findings.
 
-**2**{: .label .label-red } Each group must submit a flowchart explaining your analysis.  This can be accompanied by a short (1/2 paragraph) text explanation for clarity or it can be a standalone document **if** it is sufficiently clear.
+**1**{: .label .label-red } The proposal is due **Tuesday March 29th by 5PM**.  See the [Project Proposal](docs/Proposal.md) page for details.
 
-**3**{: .label .label-red } Each group must report on their project, but you have a choice of how.  Groups may either submit a written report or give a project presentation in lieu of a written report.  The report/presentation should contain and reference the flowchart, maps, charts, and/or tables.  The report/presentation should have the following sections:
+**2**{: .label .label-red } Each group must produce a written report detailing their project.  The report should contain the flowchart, maps, charts, and/or tables embedded in the document with in text references to the visualizations where applicable.  The report should have the following sections:
 
 **Introduction** – What is the problem? Why should we care?  Briefly introduce the scope of the issue you are addressing and conclude your introduction with your research statement.
 
@@ -114,13 +113,31 @@ You will need to make a series of maps (# depends on the analysis) to visualize 
 **Methods** – What did you do? Why did you do it?  Explain the analysis steps you took and justify the choices you made in your analysis.  You can rely heavily on your flow charts for explaining the methods.  You don’t need to detail every little step, be brief but throughout.
 * Don’t Say things like: “We doubled clicked the buffer tool and set Layer A as the input. We set the buffer distance to 1000 meters and clicked dissolve all.  We set the output name as Layer B and hit run.  Then we merged Layer B with Layer C naming it Layer D”
 * Instead Say: “We buffered Layer A by 1000 m because (justification). Then we merged it with Layer C”
+* **Flowchart** is best included here!
 
 **Results** – What does your analysis say? Describe the general patterns and trends that your analysis yielded.
+* Maps/charts go here!
 
 **Conclusions** – What are the overarching conclusions? Did you find what you expected?  Did you answer the research statement?  What are some potential future analysis that could result from this?
 
 **Bibliography** – Cite any data sources used.  Also cite any relevant literature.  It is not expected that you conduct a literature review, just make sure to cite any you do use. Reference them in a consistent format
 
-For written report, there is no word/page count.  You can keep the report brief, just be thorough.  Make sure you explain and discuss the key points.
+There is no word/page count.  You can keep the report brief, just be thorough.  Make sure you explain and discuss the key points.
 
-For presentations, try to keep it to less than 15 minutes, and leave a few minutes at the end for questions.
+
+**3**{: .label .label-red } Each group submit full resolution copies of each visualization (flowchart, maps, charts).  These will be evaluated for aesthetic quality and effectiveness at conveying your findings.  The full resolution copies are required just in case the embedded figures in your project report are not clear enough to read.
+
+
+
+## Project Evaluation
+
+
+|       Category        |                                                                                                                                                 Details                                                                                                                                                  |Points |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
+|**Analysis**           |Considers the project holistically (GIS Analysis + Interpretation)<br>Was the data projected correctly, were appropriate steps taken, are there missing steps, logical flaws, obvious errors?<br>How thorough & rigourous was the analysis<br>Needs to be more than just a re-hash of a lab assignment<br>|**60** |
+|**Visualization**      |Are the maps, charts, and diagrams effective and aesthecially pleasing<br>Do they follow stylistic principals outlined in [lecture](https://june-skeeter.github.io/Module4_GEOS270/docs/Content_Part1.html)                                                                                               |**60** |
+|**Report Content**     |Does the report effectively convey the problem, explain the anaysis, discuss the results, and present conclusions/future research<br>Do they have each section as outlined on the proejct page                                                                                                            |**60** |
+|**Novelty & Relevance**|How unique/relevant is the topic/analysis<br>Did groups come up with their own idea substantially build on one of the ideas presented                                                                                                                                                                     |**30** |
+|**Data & Bibliography**|Are the data sources approrpriate for the analysis<br>Did they detail data sources and cite any sources used                                                                                                                                                                                              |**15** |
+|**Proposlal**          |Proposal is makred for completeness & effort (each section filled & project idea conveyed).                                                                                                                                                                                                               |**25** |
+|**Total Score**        |                                                                                                                                                                                                                                                                                                          |**250**|

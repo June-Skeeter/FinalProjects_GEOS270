@@ -23,7 +23,7 @@ With [Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044), you 
 ## Google Earth Engine
 
 [Google Earth Engine](https://developers.google.com/earth-engine/datasets/) has lots of datasets, we've only covered two; using Landsat8 to calculate NDVI and and working with DEMs (see code below).  If you'd like to work with something we haven't worked with I'm happy to help facilitate downloading it, just send me an email.  *Do not wait until the last minute* to contact me asking for help with a download.
-* This code can be used to download a DEM from google earth, similar to what we did in [Module 3](https://june-skeeter.github.io/Module3_GEOS270/docs/Application_Part2.html#calculating-ndvi-with-google-earth-engine), just make sure to upload an appropriate boundary file first.
+* This code can be used to download a DEM from google earth, similar to what we did in [Module 2](https://june-skeeter.github.io/Module2_GEOS270/docs/Application_Part2.html#calculating-ndvi-with-google-earth-engine), just make sure to upload an appropriate boundary file first.
 
 ```javascript
 var dataset = ee.ImageCollection('NRCan/CDEM').mean();
@@ -58,8 +58,7 @@ Export.image.toDrive({
 * Freshwater Atlas Coastlines
 * BC Wildfire Fire Centres
 * Fire Burn Severity - Historical
-* [Air Quality](https://github.com/June-Skeeter/BCAirQuality) 
-  * ^ I've compiled some air quality data and put it in a format that can be brought into a GIS more easily. 
+
 
 
 * Some downloads from this site require you to filter by [Map sheets](https://open.canada.ca/data/en/dataset/055919c2-101e-4329-bfd7-1d0c333c0e62)
@@ -75,7 +74,3 @@ The [City of Vancouver Data Portal](https://opendata.vancouver.ca/pages/home/) h
 ## BC Raster Data
 
 [Hectares BC](https://www.hectaresbc.org/app/habc/HaBC.html?type=raster&query=climatenormal.map) has a large stockpile of raster dataset for the province.  Sometimes students have trouble with downloads from this site.  If your download won't process, feel free to reach out.  *Just don't wait till the last minute.*
-
-## Police Involved Deaths Data
-
-[Police Involved Deaths in Canada](https://police-involved-deaths-ca.github.io/Data/) is a database I've been working on compiling.  It is an incomplete account, but the most comprehensive record available.  If you want to work with this data, please reach out to discuss some options and get more information.
